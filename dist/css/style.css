@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* !* ======================================
+?              <МИКСИНЫ>                
+*========================================= */
+/* !*=======================================
+?              </МИКСИНЫ>                
+*========================================= */
+/* !*=======================================
+?              <Шрифты>                  
+*========================================= */
+/*!todo<Подключаем шрифты>=======================================================================================*/@font-face{font-family:"Lato",sans-serif;src:url("../fonts/Lato-Light.eot");src:local("☺"),url("../fonts/Lato-Light.woff") format("woff"),url("../fonts/Lato-Light.ttf") format("truetype"),url("../fonts/Lato-Light.svg") format("svg");font-weight:300;font-style:normal}@font-face{font-family:"Lato",sans-serif;src:url("../fonts/Lato-Regular.eot");src:local("☺"),url("../fonts/Lato-Regular.woff") format("woff"),url("../fonts/Lato-Regular.ttf") format("truetype"),url("../fonts/Lato-Regular.svg") format("svg");font-weight:400;font-style:normal}@font-face{font-family:"Lato",sans-serif;src:url("../fonts/Lato-Bold.eot");src:local("☺"),url("../fonts/Lato-Bold.woff") format("woff"),url("../fonts/Lato-Bold.ttf") format("truetype"),url("../fonts/Lato-Bold.svg") format("svg");font-weight:700;font-style:normal}@font-face{font-family:"Lato",sans-serif;src:url("../fonts/Lato-BoldItalic.eot");src:local("☺"),url("../fonts/Lato-BoldItalic.woff") format("woff"),url("../fonts/Lato-BoldItalic.ttf") format("truetype"),url("../fonts/Lato-BoldItalic.svg") format("svg");font-weight:700;font-style:italic}@font-face{font-family:"Myriad Pro";src:url("../fonts/SQDRSS+MyriadPro-Regular.eot");src:local("☺"),url("../fonts/SQDRSS+MyriadPro-Regular.woff") format("woff"),url("../fonts/SQDRSS+MyriadPro-Regular.ttf") format("truetype"),url("../fonts/SQDRSS+MyriadPro-Regular.svg") format("svg");font-weight:400;font-style:normal}
+/*!todo</Подключаем шрифты>=======================================================================================*/
+/*!todo<Иконочные шрифты>==========================================================================================*/
+/*!todo</Иконочные шрифты>==========================================================================================*/
+/*!todo<Шрифт по умолчанию>==========================================================================================*/
+/*!todo</Шрифт по умолчанию>==========================================================================================*/
+/* !*=======================================
+?              </Шрифты>                  
+*========================================= */
+/* !*=======================================
+?              <ПЕРЕМЕННЫЕ>              
+*========================================= */
+/* !*=======================================
+?              </ПЕРЕМЕННЫЕ>              
+*========================================= */
+/* !*=======================================
+?       <ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>      
+*========================================= */
+/* !=======================================
+?              Обнуление                  
+!========================================= */*{padding:0;margin:0;border:0}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}:active,:focus{outline:none}a:active,a:focus{outline:none}aside,footer,header,nav{display:block}body,html{width:100%;height:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%}button,input,textarea{font-family:inherit}input::-ms-clear{display:none}button{cursor:pointer}button::-moz-focus-inner{padding:0;border:0}a,a:visited{text-decoration:none}a:hover{text-decoration:none}ul li{list-style:none}img{vertical-align:top}h1,h2,h3,h4,h5,h6{margin:0;font-size:inherit;font-weight:400}p{margin:0;font-size:inherit;font-weight:400}
+
+/* !=======================================
+?              /Обнуление                  
+!========================================= */body{font-family:"Lato",sans-serif;color:#000000;font-size:14px;background-color:#353738}body.lock{overflow:hidden}
+
+/* !*=======================================
+?     </ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>       
+*========================================= */
+/* !*=======================================
+?              <ОБОЛОЧКА>                
+*========================================= */.wrapper{width:100%;min-height:100%;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.main{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}
+
+/* !*=======================================
+?              </ОБОЛОЧКА>                
+*========================================= */
+/* !*=======================================
+?              <ОСНОВНАЯ СЕТКА>          
+*========================================= */.container{max-width:1600px;margin:0 auto}
+/* !*=======================================
+            ? </ОСНОВНАЯ СЕТКА>         
+*========================================= */
+/*!todo<ПОДКЛЮЧЕНИЕ ФАЙЛОВ UI СТИЛЕЙ, ФОРМ И ГОТОВЫХ КЛАССОВ>======================================================================*/
+/*!todo</ПОДКЛЮЧЕНИЕ ФАЙЛОВ UI СТИЛЕЙ, ФОРМ И ГОТОВЫХ КЛАССОВ>=====================================================================*/
+/*!todo<ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>=============================================================================*/
+/*!todo</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>============================================================================*/
+/* !*=======================================
+?              <ОСНОВНОЙ БЛОК>            
+*========================================= */.header{position:relative;height:100vh}.header__bg{position:fixed;width:100%;height:100%;-o-object-fit:cover;object-fit:cover;z-index:-1}.header__container{padding:35px 0px 0px 0px}.header__nav{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;z-index:2}.header__nav_1{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;min-width:210px}.header__link{color:#4d4959;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:2.6px;transition:color 0.2s;-webkit-transition:color 0.2s;-moz-transition:color 0.2s;-ms-transition:color 0.2s;-o-transition:color 0.2s}.header__link:hover{color:#64c29e}.header__logo{margin:0px 64px 0px 63px}
+
+/* !todo==================================================================================================================*/.about{position:relative}.about__container{padding:7.3125% 1.5625% 8.375% 1.5625%;text-align:center;background-color:#f7f7f7}.about__icon{margin:0px 0px 31px 0px}.about__title{max-width:1079px;margin:0px auto 26px auto}.about__description{max-width:1079px;margin:0 auto;color:#848789;font-size:18px;font-weight:400;line-height:34px}.title{color:#353738;font-size:18px;font-weight:700;line-height:24px;text-transform:uppercase;letter-spacing:3.6px}.work__bike{display:-webkit-box;display:-ms-flexbox;display:flex;max-height:600px}.work__bike_large{position:relative;-webkit-box-flex:1;-ms-flex:1 1 66.6875%;flex:1 1 66.6875%}.work__bike_small{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-flex:0;-ms-flex:0 1 33.3125%;flex:0 1 33.3125%}.large__image{width:100%;background-color:#282f35}.large__logo{position:absolute;top:50%;left:50%;max-width:10.5904404873%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%)}.small__info{-webkit-box-flex:0;-ms-flex:0 1 100%;flex:0 1 100%;padding:13.1332082552% 12.7579737336% 0% 12.7579737336%;background-color:#ffffff}.small__bg{position:absolute;top:0;left:0;width:100%;z-index:1}.small__item{position:relative;text-align:center;z-index:2}.small__icon{margin:0px 0px 28px 0px}.small__title{margin:0px 0px 16px 0px}.small__description{color:#848789;font-size:16px;line-height:30px;text-align:justify}.small__img img{width:100%}
+
+/* !todo==================================================================================================================*/
+/* !*=======================================
+?              </ОСНОВНОЙ БЛОК>           
+*========================================= */
