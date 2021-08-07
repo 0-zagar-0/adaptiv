@@ -1,5 +1,7 @@
 .mailing {
    background-color: #ffffff;
+   padding: 0px 15px 0px 15px;
+   
 
    &__content {
       display: flex;
@@ -30,12 +32,18 @@
    &__email {
       min-width: 400px;
       margin: 0px 8px 0px 0px;
-
       padding: 28px 0px 24px 28px;
       border: 1px solid #d3d7d9;
       color: #353738;
       font-size: 20px;
       line-height: 24px;
+      @media ( max-width: 600px) {
+         min-width: 300px;
+      }
+      @media ( max-width: 470px) {
+         min-width: 150px;
+         padding: 28px 0px 24px 10px;
+      }
       &::placeholder {
          color: #929292;
          font-size: 20px;
@@ -61,6 +69,12 @@
       text-transform: uppercase;
       background-color: #64c29e;
       border: 1px solid #64c29e;
+      @media ( max-width: 600px) {
+         padding: 26px 35px 26px 35px;
+      }
+      @media ( max-width: 470px) {
+         padding: 26px 10px 26px 10px;
+      }
       &:hover {
          color: #64c29e;
          background-color: #ffffff;
