@@ -1,0 +1,124 @@
+.work {
+   &__bike-views {
+   }
+
+   &__bike {
+      display: flex;
+   }
+}
+.bike {
+   &__column {
+      position: relative;
+
+      &_1 {
+         flex: 1 1 66.667%;
+      }
+
+      &_2 {
+         flex: 1 1 33.333%;
+         display: flex;
+         flex-direction: column;
+         background-color: #ffffff;
+      }
+
+      &_1b {
+         order: 2;
+      }
+
+      &_2l {
+      }
+
+      &_3-1 {
+         flex: 1 1 33.33%;
+      }
+
+      &_3-2 {
+         flex: 1 1 33.34%;
+      }
+
+      &_3-3 {
+         flex: 1 1 33.33%;
+      }
+   }
+
+   &__img {
+      &_b {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         background-color: #282f35;
+      }
+
+      &_l {
+         flex: 1 1 33.334%;
+         background-color: #282f35;
+
+         & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+      }
+   }
+
+   &__logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+   }
+
+   &__description {
+      position: relative;
+      flex: 1 1 66.67%;
+      padding: 70px 60px 60px 60px;
+      @media (max-width: 1000px) {
+         padding: 35px 30px 30px 30px;
+      }
+   }
+
+   &__icon {
+      margin: 0px 0px 23px 0px;
+   }
+
+   &__title {
+      margin: 0px 0px 11px 0px;
+   }
+
+   &__sometext {
+      font-size: 16px;
+      line-height: 30px;
+      text-align: justify;
+
+      &::after {
+         content: "";
+         display: block;
+         width: 11%;
+         height: 1px;
+         margin: 33px 0px 0px 50%;
+         background-color: #353738;
+         transform: translateX(-50%);
+         -webkit-transform: translateX(-50%);
+         -moz-transform: translateX(-50%);
+         -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+         opacity: 0.3;
+      }
+   }
+}
+
+.description {
+   &__bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+   }
+}

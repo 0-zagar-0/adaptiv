@@ -1,0 +1,75 @@
+.twitter {
+   background-color: #f7f7f7;
+
+   &__container {
+      max-width: 1080px;
+      padding: 124px 20px 68px 20px;
+   }
+
+   &__block {
+   }
+
+   &__icon {
+      margin: 0px 0px 29px 0px;
+   }
+
+   &__title {
+      margin: 0px 0px 14px 0px;
+      font-family: "Myriad Pro";
+      letter-spacing: 1.8px;
+      text-transform: none;
+      & span {
+         color: #848789;
+         font-weight: 300;
+         letter-spacing: 1.8px;
+      }
+   }
+
+   &__description {
+      margin: 0px 0px 100px 0px;
+
+      font-size: 24px;
+      font-style: italic;
+      line-height: 34px;
+   }
+
+   &__swipe {
+      display: flex;
+      justify-content: center;
+   }
+
+   &__link {
+      width: 11px;
+      height: 11px;
+      margin: 0px 9px 0px 0px;
+      border: 1px solid #a9afb3;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      transition: background-color 0.3s;
+      -webkit-transition: background-color 0.3s;
+      -moz-transition: background-color 0.3s;
+      -ms-transition: background-color 0.3s;
+      -o-transition: background-color 0.3s;
+
+      &_1 {
+      }
+
+      &_2 {
+      }
+
+      &_3 {
+         margin: 0px 0px 0px 0px;
+      }
+
+      &_active {
+         background-color: #a9afb3;
+      }
+
+      &:hover {
+         background-color: #a9afb3;
+      }
+   }
+}
