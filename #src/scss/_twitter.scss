@@ -4,6 +4,9 @@
    &__container {
       max-width: 1080px;
       padding: 124px 20px 68px 20px;
+      @media(max-width: 600px) {
+         padding: 62px 20px 68px 20px;
+      }
    }
 
    &__block {

@@ -1,9 +1,13 @@
 .work {
    &__bike-views {
+      
    }
 
    &__bike {
       display: flex;
+      @media (max-width: 850px) {
+         flex-direction: column;
+      }
    }
 }
 .bike {
@@ -23,6 +27,9 @@
 
       &_1b {
          order: 2;
+         @media (max-width: 850px) {
+            order: 0;
+         }
       }
 
       &_2l {
